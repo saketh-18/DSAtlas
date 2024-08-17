@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Importing fonts from Google Fonts */
+/* Importing fonts from Google Fonts */
+
+/* Importing fonts from Google Fonts */
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+} */
+
+
+
+
+.login-page p {
+    text-shadow: horizontal-offset vertical-offset blur color;
+}
+
+.login-branding { color: #006d00; text-shadow: 0px 1px 0px #60ff80, 0px 2px 0px #30c71c, 0px 3px 0px #166a03, 0px 4px 0px #0a9626, 0px 5px 0px #0a932a, 0px 6px 0px #19a523, 0px 7px 0px #07740d, 0px 8px 7px #0a7c04;  }
+
+.login-input::placeholder{
+    color: white;
+    font-size: larger;
+}
+
+
+/* .dropdown-menu {
+    height: 65vh;
+} */
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #A2FDA2; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0A7D0A; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #065906; /* Darker shade for the scrollbar thumb on hover */
+  }
+  
+  /* For Firefox */
+  html {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #0A7D0A #A2FDA2; /* Color of the scrollbar thumb and track */
+  }
+  
+  /* For Internet Explorer and Edge */
+  body {
+    -ms-overflow-style: none; /* Hide default scrollbar */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Hide default scrollbar */
+  }
+  
